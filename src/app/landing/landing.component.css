@@ -1,11 +1,14 @@
 /*Header*/
+html {
+  font-family: 'Open Sans', sans-serif;
+}
 .header  {
     font-size: 24px;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
     z-index: 1020;
-    height: 8rem;
+    height: 8em;
     box-sizing: border-box;
     }
     
@@ -15,42 +18,38 @@
     position: sticky;
     top: 0;
     z-index: 1020;
-    height: 8rem;
-    background-color: rgb(255,255,255, 0.7);
+    height: 6rem;
+    background-color: rgb(255,255,255);
     }
     
     .phone {
-    height: 8rem;
-    line-height: 8rem;
+    height: 6rem;
+    line-height: 6rem;
     font-weight: bold;
     color: #0b090a;
     
     }
     .logo {
-    padding-top: .6em;
+    padding-top: .9em;
     }
     
     /*Slider*/
     .headerContent {
     color: white;
-    height: 100%;
+    
     font-size: 30px; 
-    padding-top: 2em; 
+    padding-top: 4em;
+    padding-bottom: 8em;
     letter-spacing: 2px;
-    position: relative;
-    display: flex;
-    overflow: hidden;
+   
     }
     
     .bgslider {
     background-image: url(../../assets/i/slider.png);
     background-size: 100%;
     background-repeat: repeat;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    background-position: center center;
-    background-size: cover;
+    min-height: 100%;
+   
     
     }
     
@@ -95,6 +94,10 @@
       height: 4px;
       background-color: white;
       animation : translate4 4s;
+    }
+
+    #text-slider {
+      padding-top: 5em;
     }
     
     @keyframes translate4{
@@ -155,10 +158,11 @@
     background-repeat: no-repeat;
     background-position: right;
     height: 100%;
+    padding-bottom: 5em;
     }
     
     .text-about-niz {
-    padding-top: 12em;
+    padding-top: 9em;
     width: 25em;
     font-size: 24px;
     animation : translate3 4s;
@@ -177,8 +181,9 @@
     background-image: url(../../assets/i/map.png);
     background-repeat: no-repeat;
     height: 100%;
-    padding-top: 25%;
-    margin-bottom: 7%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    margin-bottom: 30px;
     }
       
     .contacts  {
@@ -199,9 +204,11 @@
     /*Footer*/
     .footer {
     padding: 1em;
+    margin-bottom: 0;
     text-align: center;
     background-color: #de7834;
     color: white;
+    margin-top: 35px;
     }
     
     
@@ -253,7 +260,7 @@
           color: #0b090a;
           background-color: #d0d1d3;
           height: 60%;
-          margin-top: 2em;
+          margin-top: 5em;
           
           }
     
@@ -269,6 +276,10 @@
           font-size: 27px;
           font-weight: bold;
         }
+
+        .text-slider {
+          padding-left: 0;
+        }
         .text-slider h2 {
           color: #0b090a;
           font-size: 22px;
@@ -277,7 +288,7 @@
           background-image: none !important;
           height: 70%;
         }
-        .bgVerh {
+        .bgverh {
           background-image: none !important;
           height: 70%;
         }
