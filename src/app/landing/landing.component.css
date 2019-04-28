@@ -1,0 +1,318 @@
+/*Header*/
+.header  {
+    font-size: 24px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+    height: 8rem;
+    box-sizing: border-box;
+    }
+    
+    .bg {
+    font-size: 24px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+    height: 8rem;
+    background-color: rgb(255,255,255, 0.7);
+    }
+    
+    .phone {
+    height: 8rem;
+    line-height: 8rem;
+    font-weight: bold;
+    color: #0b090a;
+    
+    }
+    .logo {
+    padding-top: .6em;
+    }
+    
+    /*Slider*/
+    .headerContent {
+    color: white;
+    height: 100%;
+    font-size: 30px; 
+    padding-top: 2em; 
+    letter-spacing: 2px;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    }
+    
+    .bgslider {
+    background-image: url(../../assets/i/slider.png);
+    background-size: 100%;
+    background-repeat: repeat;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-position: center center;
+    background-size: cover;
+    
+    }
+    
+    h1 {
+    color : white;
+    font-size : 50px;
+    font-weight : bold;
+    text-transform : uppercase;
+    animation : translate1 3s;
+    }
+    
+    h2 {
+    font-size : 30px;
+    color : white; 
+    animation : translate2 3s;
+    line-height: 50px;
+    }
+    
+    @keyframes translate1{
+    0% { opacity : 0; transform: translate(-16px, 0); }
+    20% { opacity : 1; transform: translate(0, 0); }
+    65% { opacity : 1; transform: translate(0, 0); }
+    80% { opacity : 1; transform: translate(0, 0); }
+    100% { opacity : 1; transform: translate(0, 0); }
+    }
+    @keyframes translate2{
+    0% { opacity : 0; transform: translate(-32px, 0); }
+    18% { opacity : 0; transform: translate(0, 0); }
+    64% { opacity : 1; transform: translate(0, 0); }
+    82% { opacity : 1; transform: translate(0, 0); }
+    100% { opacity : 1; transform: translate(0, 0); }
+    }
+    
+    #border-wrapper{
+      position:relative;
+      display:inline-block;
+    }
+    #border{
+      position: relative;
+      margin-top: 18px; 
+      width: 30%;
+      height: 4px;
+      background-color: white;
+      animation : translate4 4s;
+    }
+    
+    @keyframes translate4{
+    0% { opacity : 0; transform: translate(-16px, 0); }
+    20% { opacity : 1; transform: translate(0, 0); }
+    65% { opacity : 1; transform: translate(0, 0); }
+    80% { opacity : 1; transform: translate(0, 0); }
+    100% { opacity : 1; transform: translate(0, 0); }
+    }
+     
+    /*aboutVerh*/
+    .aboutVerh {   
+    height: 100%;
+    font-size: 24px;
+    padding-top: 2em;
+    }
+    .bgverh {
+    background-image: url(../../assets/i/pila.png);
+    background-repeat: no-repeat;
+    height: 100%;
+    }
+    
+    .text-about-verh {
+    padding-top: 5em;
+    width: 25em;
+    background-image: url(../../assets/i/fonkls.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: 27%;
+    background-position-x: 0px;
+    animation : translate2 4s;
+    color: #0b090a;
+    }
+    
+    .zag {
+    font-size: 50px;
+    font-weight: bold;
+    color: #0b090a;
+    }
+    
+    @keyframes translate2{
+    0% { opacity : 0; transform: translate(16px, 0); }
+    20% { opacity : 1; transform: translate(0, 0); }
+    65% { opacity : 1; transform: translate(0, 0); }
+    80% { opacity : 1; transform: translate(0, 0); }
+    100% { opacity : 1; transform: translate(0, 0); }
+    }
+    
+    /*aboutNiz*/
+    .aboutNiz {   
+    height: 100%;
+    font-size: 24px;
+    color: #0b090a;
+    }
+    
+    .bgniz {
+    background-image: url(../../assets/i/drill.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 100%;
+    }
+    
+    .text-about-niz {
+    padding-top: 12em;
+    width: 25em;
+    font-size: 24px;
+    animation : translate3 4s;
+    }
+    
+    @keyframes translate3{
+    0% { opacity : 0; transform: translate(-16px, 0); }
+    20% { opacity : 1; transform: translate(0, 0); }
+    65% { opacity : 1; transform: translate(0, 0); }
+    80% { opacity : 1; transform: translate(0, 0); }
+    100% { opacity : 1; transform: translate(0, 0); }
+    }
+    
+    /*Map*/
+    .map {
+    background-image: url(../../assets/i/map.png);
+    background-repeat: no-repeat;
+    height: 100%;
+    padding-top: 25%;
+    margin-bottom: 7%;
+    }
+      
+    .contacts  {
+    margin-left: 65%;
+    width: 270px;
+    height: 250px;
+    background-color: white;
+    border-left: 3px solid #de7834;
+    padding: 2em;
+    font-size: 18px;
+    }
+    
+    .zag1 {
+    font-size: 25px;
+    font-weight: bold;
+    }
+      
+    /*Footer*/
+    .footer {
+    padding: 1em;
+    text-align: center;
+    background-color: #de7834;
+    color: white;
+    }
+    
+    
+    /*Fonts*/
+    /*
+    @font-face {
+        font-family: 'Gotham Pro';
+        src: url('../fonts/GothamPro-Bold.eot');
+        src: url('../fonts/GothamPro-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/GothamPro-Bold.woff2') format('woff2'), url('../fonts/GothamPro-Bold.woff') format('woff'), url('../fonts/GothamPro-Bold.ttf') format('truetype'), url('../fonts/GothamPro-Bold.svg#GothamPro-Bold') format('svg');
+        font-weight: bold;
+        font-style: normal;
+      }
+      @font-face {
+        font-family: 'Gotham Pro';
+        src: url('../fonts/GothamPro-Light.eot');
+        src: url('../fonts/GothamPro-Light.eot?#iefix') format('embedded-opentype'), url('../fonts/GothamPro-Light.woff2') format('woff2'), url('../fonts/GothamPro-Light.woff') format('woff'), url('../fonts/GothamPro-Light.ttf') format('truetype'), url('../fonts/GothamPro-Light.svg#GothamPro-Light') format('svg');
+        font-weight: 300;
+        font-style: normal;
+      }
+      @font-face {
+        font-family: 'Gotham Pro';
+        src: url('../fonts/GothamPro-Medium.eot');
+        src: local('../fonts/Gotham Pro Medium'), local('GothamPro-Medium'), url('../fonts/GothamPro-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/GothamPro-Medium.woff') format('woff'), url('../fonts/GothamPro-Medium.ttf') format('truetype');
+        font-weight: 500;
+        font-style: normal;
+      }
+      @font-face {
+        font-family: 'Gotham Pro';
+        src: url('../fonts/GothamPro.eot');
+        src: local('../fonts/Gotham Pro'), local('GothamPro'), url('../fonts/GothamPro.eot?#iefix') format('embedded-opentype'), url('../fonts/GothamPro.woff') format('woff'), url('../fonts/GothamPro.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+      }
+      @font-face {
+        font-family: 'Gotham Pro';
+        src: url('../fonts/GothamPro-Black.eot');
+        src: local('../fonts/Gotham Pro Black'), local('../fonts/GothamPro-Black'), url('../fonts/GothamPro-Black.eot?#iefix') format('embedded-opentype'), url('../fonts/GothamPro-Black.woff') format('woff'), url('../fonts/GothamPro-Black.ttf') format('truetype');
+        font-weight: 900;
+        font-style: normal;
+      }
+    
+    */
+    
+    
+      @media screen and (max-width: 700px) {
+     
+        .bgslider {
+          background-image: none !important;
+          color: #0b090a;
+          background-color: #d0d1d3;
+          height: 60%;
+          margin-top: 2em;
+          
+          }
+    
+        
+          
+        .header {
+          font-size: 14px;
+          display: inline-block;
+          padding-bottom: 2em;
+        }
+        .text-slider h1 {
+          color: #de7834;
+          font-size: 27px;
+          font-weight: bold;
+        }
+        .text-slider h2 {
+          color: #0b090a;
+          font-size: 22px;
+        }
+        .bgniz {
+          background-image: none !important;
+          height: 70%;
+        }
+        .bgVerh {
+          background-image: none !important;
+          height: 70%;
+        }
+        .text-about-verh {
+          padding-top: 0;
+          width: 15em;
+          font-size: 19px;
+        }
+        .text-about-niz {
+          padding-top: 0;
+          font-size: 19px;
+        }
+        .zag {
+          font-size: 20px;
+          font-weight: bold;
+        }
+        .text-about-niz {
+          padding-top: 0;
+          width: 15em;
+          font-size: 19px;
+        }      
+        .contacts  {
+          margin-left: 0;
+         font-size: 16px;
+        }
+    
+        #border{
+          background-color: #de7834;
+     
+        }
+        .logo img{
+          width: 60%;
+          }
+         
+          
+    }
+    
+    

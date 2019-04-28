@@ -1,0 +1,137 @@
+
+<!-- Header -->
+ <div class="bg">
+     <div class="container header">
+        <div class="row">
+          
+           
+           <div class="col-md-2 col-sm-1">
+               <div class="logo">
+           <img src="../../assets/i/logo.png">
+           </div>
+         </div>
+           
+          
+           <div class="col-md-3 offset-md-7 col-sm-2 col-sm-offset-0">
+              <div class="phone">
+           <p>+7 (495) 899-00-88</p>
+          </div>  
+         </div> 
+     
+       </div>
+     </div>
+
+   </div>
+
+<!-- Slider -->
+   <div class='bgslider'>
+      <div class="container headerContent">
+         <div class="row">
+            <div class="col-md-8 col-sm-2">
+                <div class="text-slider">
+                 <h1>KLS-Trade</h1>
+                 <div id="border"></div>
+                 <h2>Российская компания, занимающаяся продажей и сервисным обслуживанием электроинструмента, средств малой механизации и промышленного оборудования.</h2>
+                </div>
+            </div>
+         </div>
+      </div>
+   </div>
+
+
+
+
+ <!-- AboutVerh block -->
+ <div class="bgverh">
+     <div class="container aboutVerh">
+         <div class="row">
+            <div class="col-md-8 offset-md-5">
+                <div class="text-about-verh">
+                <p class="zag">О компании</p>
+                <br>
+                <p>Компания является партнером российского производителя «Интерскол» и тесно сотрудничает с другими производителями на российском рынке.</p>
+                <br>
+                <p>На сегодняшний день, компания поставляет на рынок порядка 240 разных наименований, основу которых составляет общестроительный и деревообрабатывающий инструмент, а также инструмент для бетонообработкии отделки.</p>
+                </div>
+            </div>
+         </div>
+    </div>
+</div>
+
+
+
+
+<!-- AboutNiz block -->
+<div class="bgniz">
+     <div class="container aboutNiz">
+          <div class="row">
+               <div class="col-md-12">
+                 <div class="text-about-niz">
+                  <p>Компания обладает патентами в сфере торговли, на основе которых планирует развернуть производственную линию под собственным брендом. </p>
+                  <br>
+                  <p>Также, в планах построение системы для автоматизации процессов между всеми участниками начиная от производства и логистки, заканчивая торговыми точками и сервисными центрами.</p>
+                 </div>
+               </div>
+          </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+<!-- Map block -->
+<div class='container'>
+    <div class="row">
+        <div class="col-md-12">
+
+
+
+           <div class="map">
+        <!--<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A6904e0267d8bcec2b74c085d88cc8f96b5797e39b64da75108c3bd45675d15f8&amp;source=constructor" width="1200" height="400" frameborder="0"></iframe>
+         -->
+       <div class="contacts">
+           <p class="zag1">Контакты</p>
+           <p>125040, Москва, улица Ямского поля 3-я, дом 2, корпус 7</p>
+           </div>
+       </div>
+    </div>
+   </div>
+</div>
+
+
+
+<!-- Copyright block -->
+<div class="footer">
+   <div class='container'>
+       <div class="row">
+           <div class="col-md-12">
+            © — KLS-Trade 2019, all rights reserved.
+           </div>
+       </div>
+   </div>
+</div>
+
+<!-- JS & Jquery core JS -->
+<script src="jquery.min.js"></script>
+
+<script>
+
+ $('.headerContent').on('mousemove',(e) =>{
+     const x= e.pageX / $(window).width();
+     const y= e.pageY / $(window).height();
+     $('.bgslider').css(
+       'transform',
+         'translate(-'+ x * 1 + 'px, -' + y * 1 + 'px)'
+     );
+     $('.text-slider').css(
+       'transform',
+         'translate('+ x * 56 + 'px, ' + y * 56 + 'px)'
+     );
+ });
+
+</script> 
