@@ -16,6 +16,19 @@
     line-height: 6rem;
     font-weight: bold;
     color: #0b090a;
+    font-family: 'Gotham Pro';
    
   }
-  
+
+
+
+  @media screen and (max-width: 1000px) {
+    .phone {
+        padding-bottom: 30px;
+      
+    }  
+    .logo {
+        margin-bottom: 30px;
+        width: 100%;
+      }  
+}
