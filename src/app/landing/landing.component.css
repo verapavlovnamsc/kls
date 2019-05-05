@@ -1,329 +1,562 @@
 /*Header*/
-html {
-  font-family: 'Open Sans', sans-serif;
+body {
+  font-family: 'Gotham Pro';
 }
-.header  {
-    font-size: 24px;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    z-index: 1020;
-    height: 8em;
-    box-sizing: border-box;
-    }
-    
-    .bg {
-    font-size: 24px;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    z-index: 1020;
-    height: 6rem;
-    background-color: rgb(255,255,255);
-    }
-    
-    .phone {
-    height: 6rem;
-    line-height: 6rem;
-    font-weight: bold;
-    color: #0b090a;
-    
-    }
-    .logo {
-    padding-top: .9em;
-    }
-    
-    /*Slider*/
-    .headerContent {
-    color: white;
-    
-    font-size: 30px; 
-    padding-top: 4em;
-    padding-bottom: 8em;
-    letter-spacing: 2px;
-   
-    }
-    
-    .bgslider {
-    background-image: url(../../assets/i/slider.png);
-    background-size: 100%;
-    background-repeat: repeat;
-    min-height: 100%;
-   
-    
-    }
-    
-    h1 {
-    color : white;
-    font-size : 50px;
-    font-weight : bold;
-    text-transform : uppercase;
-    animation : translate1 3s;
-    }
-    
-    h2 {
-    font-size : 30px;
-    color : white; 
-    animation : translate2 3s;
-    line-height: 50px;
-    }
-    
-    @keyframes translate1{
-    0% { opacity : 0; transform: translate(-16px, 0); }
-    20% { opacity : 1; transform: translate(0, 0); }
-    65% { opacity : 1; transform: translate(0, 0); }
-    80% { opacity : 1; transform: translate(0, 0); }
-    100% { opacity : 1; transform: translate(0, 0); }
-    }
-    @keyframes translate2{
-    0% { opacity : 0; transform: translate(-32px, 0); }
-    18% { opacity : 0; transform: translate(0, 0); }
-    64% { opacity : 1; transform: translate(0, 0); }
-    82% { opacity : 1; transform: translate(0, 0); }
-    100% { opacity : 1; transform: translate(0, 0); }
-    }
-    
-    #border-wrapper{
-      position:relative;
-      display:inline-block;
-    }
-    #border{
-      position: relative;
-      margin-top: 18px; 
-      width: 30%;
-      height: 4px;
-      background-color: white;
-      animation : translate4 4s;
-    }
+.header {
+  font-size: 24px;
+  top: 0;
+  z-index: 1020;
+  height: 8rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.logo {
+  background-image: url("../../assets/i/logo.png");
+  background-repeat: no-repeat;
+  height: 100%;
+  margin-top: 1em;
+}
+.bg {
+  font-size: 24px;
+  top: 0;
+  z-index: 1020;
+  height: 6rem;
+  background-color: #ffffff;
+}
+.phone {
+  height: 6rem;
+  line-height: 6rem;
+  font-weight: bold;
+  color: #0b090a;
+}
 
-    #text-slider {
-      padding-top: 5em;
-    }
-    
-    @keyframes translate4{
-    0% { opacity : 0; transform: translate(-16px, 0); }
-    20% { opacity : 1; transform: translate(0, 0); }
-    65% { opacity : 1; transform: translate(0, 0); }
-    80% { opacity : 1; transform: translate(0, 0); }
-    100% { opacity : 1; transform: translate(0, 0); }
-    }
-     
-    /*aboutVerh*/
-    .aboutVerh {   
-    height: 100%;
-    font-size: 24px;
-    padding-top: 2em;
-    }
-    .bgverh {
-    background-image: url(../../assets/i/pila.png);
-    background-repeat: no-repeat;
-    height: 100%;
-    }
-    
-    .text-about-verh {
-    padding-top: 5em;
-    width: 25em;
-    background-image: url(../../assets/i/fonkls.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position-y: 27%;
-    background-position-x: 0px;
-    animation : translate2 4s;
-    color: #0b090a;
-    }
-    
-    .zag {
-    font-size: 50px;
+/*Slider*/
+.headerContent {
+  color: white;
+  height: 100%;
+  font-size: 30px;
+  padding-top: 3em;
+  padding-bottom: 5em;
+}
+
+
+.bgslider {
+  background-image: url(../../assets/i/slider.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+h1 {
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  text-transform: uppercase;
+  -webkit-animation: translate1 3s;
+          animation: translate1 3s;
+}
+h2 {
+  font-size: 30px;
+  color: white;
+  -webkit-animation: translate2 3s;
+          animation: translate2 3s;
+  line-height: 50px;
+}
+@-webkit-keyframes translate1 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate(-16px, 0);
+            transform: translate(-16px, 0);
+  }
+  20% {
+    opacity: 1;
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+  65% {
+    opacity: 1;
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+  80% {
+    opacity: 1;
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+}
+@keyframes translate1 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate(-16px, 0);
+            transform: translate(-16px, 0);
+  }
+  20% {
+    opacity: 1;
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+  65% {
+    opacity: 1;
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+  80% {
+    opacity: 1;
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+}
+@-webkit-keyframes translate2 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate(-32px, 0);
+            transform: translate(-32px, 0);
+  }
+  18% {
+    opacity: 0;
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+  64% {
+    opacity: 1;
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+  82% {
+    opacity: 1;
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+}
+@keyframes translate2 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate(-32px, 0);
+            transform: translate(-32px, 0);
+  }
+  18% {
+    opacity: 0;
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+  64% {
+    opacity: 1;
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+  82% {
+    opacity: 1;
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+}
+#border-wrapper {
+  position: relative;
+  display: inline-block;
+}
+#border {
+  position: relative;
+  margin-top: 18px;
+  width: 30%;
+  height: 3px;
+  background-color: white;
+  -webkit-animation: translate4 4s;
+          animation: translate4 4s;
+}
+@-webkit-keyframes translate4 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate(-16px, 0);
+            transform: translate(-16px, 0);
+  }
+  20% {
+    opacity: 1;
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+  65% {
+    opacity: 1;
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+  80% {
+    opacity: 1;
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+}
+@keyframes translate4 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate(-16px, 0);
+            transform: translate(-16px, 0);
+  }
+  20% {
+    opacity: 1;
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+  65% {
+    opacity: 1;
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+  80% {
+    opacity: 1;
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+}
+.text-slider {
+  padding-bottom: 10em;
+}
+/*aboutVerh*/
+.aboutVerh {
+  height: 100%;
+  font-size: 24px;
+  padding-top: 2em;
+}
+.bgverh {
+  background-image: url(../../assets/i/pila.png);
+  background-repeat: no-repeat;
+  height: 100%;
+}
+.text-about-verh {
+  padding-top: 5em;
+  width: 25em;
+  background-image: url(../../assets/i/fonkls.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position-y: 27%;
+  background-position-x: 0px;
+  -webkit-animation: translate2 4s;
+          animation: translate2 4s;
+  color: #0b090a;
+  padding-bottom: 7em;
+}
+.zag {
+  font-size: 50px;
+  font-weight: bold;
+  color: #0b090a;
+}
+@keyframes translate2 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate(16px, 0);
+            transform: translate(16px, 0);
+  }
+  20% {
+    opacity: 1;
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+  65% {
+    opacity: 1;
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+  80% {
+    opacity: 1;
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+}
+/*aboutNiz*/
+.aboutNiz {
+  height: 100%;
+  font-size: 24px;
+  color: #0b090a;
+}
+.bgniz {
+  background-image: url(../../assets/i/drill.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 100%;
+}
+.text-about-niz {
+  padding-top: 12em;
+  width: 25em;
+  font-size: 24px;
+  -webkit-animation: translate3 4s;
+          animation: translate3 4s;
+  padding-bottom: 7em;
+}
+@-webkit-keyframes translate3 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate(-16px, 0);
+            transform: translate(-16px, 0);
+  }
+  20% {
+    opacity: 1;
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+  65% {
+    opacity: 1;
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+  80% {
+    opacity: 1;
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+}
+@keyframes translate3 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate(-16px, 0);
+            transform: translate(-16px, 0);
+  }
+  20% {
+    opacity: 1;
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+  65% {
+    opacity: 1;
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+  80% {
+    opacity: 1;
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+}
+/*Map*/
+.map {
+  background-image: url(../../assets/i/map.png);
+  background-repeat: no-repeat;
+  height: 100%;
+  padding-top: 15%;
+  margin-bottom: 7px;
+  padding-bottom: 15%;
+}
+.contacts {
+  margin-left: 65%;
+  width: 270px;
+  height: 250px;
+  background-color: white;
+  border-left: 3px solid #de7834;
+  padding: 2em;
+  font-size: 18px;
+}
+.zag1 {
+  font-size: 25px;
+  font-weight: bold;
+}
+/*Footer*/
+.footer {
+  padding: 1em;
+  text-align: center;
+  background-color: #de7834;
+  color: white;
+  margin-top: 45px;
+}
+/*Fonts*/
+/*
+@font-face {
+  font-family: 'Gotham Pro';
+  src: url('../fonts/GothamPro-Bold.eot');
+  src: url('../fonts/GothamPro-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/GothamPro-Bold.woff2') format('woff2'), url('../fonts/GothamPro-Bold.woff') format('woff'), url('../fonts/GothamPro-Bold.ttf') format('truetype'), url('../fonts/GothamPro-Bold.svg#GothamPro-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gotham Pro';
+  src: url('../fonts/GothamPro-Light.eot');
+  src: url('../fonts/GothamPro-Light.eot?#iefix') format('embedded-opentype'), url('../fonts/GothamPro-Light.woff2') format('woff2'), url('../fonts/GothamPro-Light.woff') format('woff'), url('../fonts/GothamPro-Light.ttf') format('truetype'), url('../fonts/GothamPro-Light.svg#GothamPro-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gotham Pro';
+  src: url('../fonts/GothamPro-Medium.eot');
+  src: local('../fonts/Gotham Pro Medium'), local('GothamPro-Medium'), url('../fonts/GothamPro-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/GothamPro-Medium.woff') format('woff'), url('../fonts/GothamPro-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gotham Pro';
+  src: url('../fonts/GothamPro.eot');
+  src: local('../fonts/Gotham Pro'), local('GothamPro'), url('../fonts/GothamPro.eot?#iefix') format('embedded-opentype'), url('../fonts/GothamPro.woff') format('woff'), url('../fonts/GothamPro.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gotham Pro';
+  src: url('../fonts/GothamPro-Black.eot');
+  src: local('../fonts/Gotham Pro Black'), local('../fonts/GothamPro-Black'), url('../fonts/GothamPro-Black.eot?#iefix') format('embedded-opentype'), url('../fonts/GothamPro-Black.woff') format('woff'), url('../fonts/GothamPro-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+*/
+/*Mobile-version*/
+@media screen and (max-width: 1000px) {
+  .header {
+    font-size: 15px;
+  }
+  .bgslider {
+    margin-top: 2em;
+  }
+  .text-slider h1 {
+    font-size: 30px;
     font-weight: bold;
-    color: #0b090a;
-    }
-    
-    @keyframes translate2{
-    0% { opacity : 0; transform: translate(16px, 0); }
-    20% { opacity : 1; transform: translate(0, 0); }
-    65% { opacity : 1; transform: translate(0, 0); }
-    80% { opacity : 1; transform: translate(0, 0); }
-    100% { opacity : 1; transform: translate(0, 0); }
-    }
-    
-    /*aboutNiz*/
-    .aboutNiz {   
-    height: 100%;
-    font-size: 24px;
-    color: #0b090a;
-    }
-    
-    .bgniz {
-    background-image: url(../../assets/i/drill.png);
-    background-repeat: no-repeat;
-    background-position: right;
-    height: 100%;
-    padding-bottom: 5em;
-    }
-    
-    .text-about-niz {
-    padding-top: 9em;
-    width: 25em;
-    font-size: 24px;
-    animation : translate3 4s;
-    }
-    
-    @keyframes translate3{
-    0% { opacity : 0; transform: translate(-16px, 0); }
-    20% { opacity : 1; transform: translate(0, 0); }
-    65% { opacity : 1; transform: translate(0, 0); }
-    80% { opacity : 1; transform: translate(0, 0); }
-    100% { opacity : 1; transform: translate(0, 0); }
-    }
-    
-    /*Map*/
-    .map {
-    background-image: url(../../assets/i/map.png);
-    background-repeat: no-repeat;
-    height: 100%;
-    padding-top: 10%;
-    padding-bottom: 10%;
-    margin-bottom: 30px;
-    }
-      
-    .contacts  {
-    margin-left: 65%;
-    width: 270px;
-    height: 250px;
-    background-color: white;
-    border-left: 3px solid #de7834;
-    padding: 2em;
-    font-size: 18px;
-    }
-    
-    .zag1 {
+  }
+  .text-slider h2 {
     font-size: 25px;
+  }
+  .text-slider {
+    top: 0;
+  }
+  .zag {
+    font-size: 18px;
+  }
+  .bgverh {
+    background-image: none !important;
+    height: 90%;
+    padding-top: 0;
+  }
+  .text-about-verh {
+    font-size: 15px;
+    background-image: none !important;
+  }
+  .bgniz {
+    background-image: none !important;
+    height: 90%;
+  }
+  .text-about-niz {
+    font-size: 15px;
+  }
+  .zag1 {
+    font-size: 18px;
+  }
+  .contacts {
+    font-size: 15px;
+  }
+  .footer {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .text-slider h1 {
+    font-size: 20px;
     font-weight: bold;
-    }
-      
-    /*Footer*/
-    .footer {
-    padding: 1em;
-    margin-bottom: 0;
-    text-align: center;
-    background-color: #de7834;
+  }
+  .text-slider h2 {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .bg {
+    background-color: #ffffff;
+    height: 100%;
+  }
+  .header {
+    font-size: 14px;
+    display: inline-block;
+    padding-bottom: 2em;
+  }
+  #border {
+    background-color: white;
+  }
+  .logo img {
+    width: 60%;
+  }
+  .bgslider {
+    background-image: url(../../assets/i/bg-mobile.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 560px;
+  }
+  .text-slider {
+    width: 10em;
+  }
+  .text-slider h1 {
     color: white;
-    margin-top: 35px;
-    }
-    
-    
-    /*Fonts*/
-    /*
-    @font-face {
-        font-family: 'Gotham Pro';
-        src: url('../fonts/GothamPro-Bold.eot');
-        src: url('../fonts/GothamPro-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/GothamPro-Bold.woff2') format('woff2'), url('../fonts/GothamPro-Bold.woff') format('woff'), url('../fonts/GothamPro-Bold.ttf') format('truetype'), url('../fonts/GothamPro-Bold.svg#GothamPro-Bold') format('svg');
-        font-weight: bold;
-        font-style: normal;
-      }
-      @font-face {
-        font-family: 'Gotham Pro';
-        src: url('../fonts/GothamPro-Light.eot');
-        src: url('../fonts/GothamPro-Light.eot?#iefix') format('embedded-opentype'), url('../fonts/GothamPro-Light.woff2') format('woff2'), url('../fonts/GothamPro-Light.woff') format('woff'), url('../fonts/GothamPro-Light.ttf') format('truetype'), url('../fonts/GothamPro-Light.svg#GothamPro-Light') format('svg');
-        font-weight: 300;
-        font-style: normal;
-      }
-      @font-face {
-        font-family: 'Gotham Pro';
-        src: url('../fonts/GothamPro-Medium.eot');
-        src: local('../fonts/Gotham Pro Medium'), local('GothamPro-Medium'), url('../fonts/GothamPro-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/GothamPro-Medium.woff') format('woff'), url('../fonts/GothamPro-Medium.ttf') format('truetype');
-        font-weight: 500;
-        font-style: normal;
-      }
-      @font-face {
-        font-family: 'Gotham Pro';
-        src: url('../fonts/GothamPro.eot');
-        src: local('../fonts/Gotham Pro'), local('GothamPro'), url('../fonts/GothamPro.eot?#iefix') format('embedded-opentype'), url('../fonts/GothamPro.woff') format('woff'), url('../fonts/GothamPro.ttf') format('truetype');
-        font-weight: normal;
-        font-style: normal;
-      }
-      @font-face {
-        font-family: 'Gotham Pro';
-        src: url('../fonts/GothamPro-Black.eot');
-        src: local('../fonts/Gotham Pro Black'), local('../fonts/GothamPro-Black'), url('../fonts/GothamPro-Black.eot?#iefix') format('embedded-opentype'), url('../fonts/GothamPro-Black.woff') format('woff'), url('../fonts/GothamPro-Black.ttf') format('truetype');
-        font-weight: 900;
-        font-style: normal;
-      }
-    
-    */
-    
-    
-      @media screen and (max-width: 700px) {
-     
-        .bgslider {
-          background-image: none !important;
-          color: #0b090a;
-          background-color: #d0d1d3;
-          height: 60%;
-          margin-top: 5em;
-          
-          }
-    
-        
-          
-        .header {
-          font-size: 14px;
-          display: inline-block;
-          padding-bottom: 2em;
-        }
-        .text-slider h1 {
-          color: #de7834;
-          font-size: 27px;
-          font-weight: bold;
-        }
+    font-size: 27px;
+    font-weight: bold;
+  }
+  .text-slider h2 {
+    color: white;
+    font-size: 20px;
+    line-height: 27px;
+  }
+  .bgverh {
+    background-image: none !important;
+    height: 70%;
+  }
+  .text-about-verh {
+    padding-top: 0;
+    width: 15em;
+    font-size: 16px;
+  }
+  .zag {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .bgniz {
+    background-image: none !important;
+    height: 70%;
+  }
+  .text-about-niz {
+    padding-top: 0;
+    width: 15em;
+    font-size: 15px;
+  }
+  .contacts {
+    margin-left: 0;
+    font-size: 14px;
+  }
+  .map {
+    background-size: cover;
+  }
+}
 
-        .text-slider {
-          padding-left: 0;
-        }
-        .text-slider h2 {
-          color: #0b090a;
-          font-size: 22px;
-        }
-        .bgniz {
-          background-image: none !important;
-          height: 70%;
-        }
-        .bgverh {
-          background-image: none !important;
-          height: 70%;
-        }
-        .text-about-verh {
-          padding-top: 0;
-          width: 15em;
-          font-size: 19px;
-        }
-        .text-about-niz {
-          padding-top: 0;
-          font-size: 19px;
-        }
-        .zag {
-          font-size: 20px;
-          font-weight: bold;
-        }
-        .text-about-niz {
-          padding-top: 0;
-          width: 15em;
-          font-size: 19px;
-        }      
-        .contacts  {
-          margin-left: 0;
-         font-size: 16px;
-        }
-    
-        #border{
-          background-color: #de7834;
-     
-        }
-        .logo img{
-          width: 60%;
-          }
-         
-          
-    }
-    
-    
