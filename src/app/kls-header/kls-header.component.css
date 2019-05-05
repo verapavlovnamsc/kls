@@ -1,0 +1,21 @@
+.logo {
+    background-image: url("../../assets/i/logo.png");
+    background-repeat: no-repeat;
+    height: 100%;
+    margin-top: 1em;
+  }
+  .bg {
+    font-size: 24px;
+    top: 0;
+    z-index: 1020;
+    height: 6rem;
+    background-color: #ffffff;
+  }
+  .phone {
+    height: 6rem;
+    line-height: 6rem;
+    font-weight: bold;
+    color: #0b090a;
+   
+  }
+  
